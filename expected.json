@@ -1,0 +1,971 @@
+{
+ "cases": [
+  {
+   "fn": "caddies",
+   "args": [
+    "290",
+    "12"
+   ],
+   "expect": "The 290 cupcakes at 12 cupcakes a caddy take 25 caddies, the last caddy holding 2 cupcakes."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "290",
+    "22"
+   ],
+   "expect": "The 290 cupcakes at 22 cupcakes a week last 13 full weeks with 4 cupcakes left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "25",
+    "13.50",
+    "290"
+   ],
+   "expect": "The 25 caddies at $13.50 a caddy come to $337.50, $1.16 a cupcake."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "290",
+    "5"
+   ],
+   "expect": "The 290 cupcakes at 5 cupcakes a minute take 58 minutes, 0 hours 58 minutes."
+  },
+  {
+   "fn": "caddies",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 cupcake at 1 cupcake a caddy takes 1 caddy, the last caddy holding 1 cupcake."
+  },
+  {
+   "fn": "caddies",
+   "args": [
+    "360",
+    "8"
+   ],
+   "expect": "The 360 cupcakes at 8 cupcakes a caddy take 45 caddies, the last caddy holding 8 cupcakes."
+  },
+  {
+   "fn": "caddies",
+   "args": [
+    "1000000",
+    "1000"
+   ],
+   "expect": "The 1000000 cupcakes at 1000 cupcakes a caddy take 1000 caddies, the last caddy holding 1000 cupcakes."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 cupcake at 1 cupcake a week lasts 1 full week with 0 cupcakes left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "360",
+    "30"
+   ],
+   "expect": "The 360 cupcakes at 30 cupcakes a week last 12 full weeks with 0 cupcakes left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1000000",
+    "100000"
+   ],
+   "expect": "The 1000000 cupcakes at 100000 cupcakes a week last 10 full weeks with 0 cupcakes left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1",
+    "0.01",
+    "1"
+   ],
+   "expect": "The 1 caddy at $0.01 a caddy comes to $0.01, $0.01 a cupcake."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "100000",
+    "999.99",
+    "1000000"
+   ],
+   "expect": "The 100000 caddies at $999.99 a caddy come to $99999000.00, $100.00 a cupcake."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 cupcake at 1 cupcake a minute takes 1 minute, 0 hours 1 minute."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "60",
+    "1"
+   ],
+   "expect": "The 60 cupcakes at 1 cupcake a minute take 60 minutes, 1 hour 0 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1000000",
+    "100"
+   ],
+   "expect": "The 1000000 cupcakes at 100 cupcakes a minute take 10000 minutes, 166 hours 40 minutes."
+  },
+  {
+   "fn": "caddies",
+   "args": [
+    "322603",
+    "167"
+   ],
+   "expect": "The 322603 cupcakes at 167 cupcakes a caddy take 1932 caddies, the last caddy holding 126 cupcakes."
+  },
+  {
+   "fn": "caddies",
+   "args": [
+    "547018",
+    "90"
+   ],
+   "expect": "The 547018 cupcakes at 90 cupcakes a caddy take 6078 caddies, the last caddy holding 88 cupcakes."
+  },
+  {
+   "fn": "caddies",
+   "args": [
+    "321188",
+    "925"
+   ],
+   "expect": "The 321188 cupcakes at 925 cupcakes a caddy take 348 caddies, the last caddy holding 213 cupcakes."
+  },
+  {
+   "fn": "caddies",
+   "args": [
+    "931813",
+    "425"
+   ],
+   "expect": "The 931813 cupcakes at 425 cupcakes a caddy take 2193 caddies, the last caddy holding 213 cupcakes."
+  },
+  {
+   "fn": "caddies",
+   "args": [
+    "430407",
+    "67"
+   ],
+   "expect": "The 430407 cupcakes at 67 cupcakes a caddy take 6424 caddies, the last caddy holding 66 cupcakes."
+  },
+  {
+   "fn": "caddies",
+   "args": [
+    "46358",
+    "5"
+   ],
+   "expect": "The 46358 cupcakes at 5 cupcakes a caddy take 9272 caddies, the last caddy holding 3 cupcakes."
+  },
+  {
+   "fn": "caddies",
+   "args": [
+    "641318",
+    "664"
+   ],
+   "expect": "The 641318 cupcakes at 664 cupcakes a caddy take 966 caddies, the last caddy holding 558 cupcakes."
+  },
+  {
+   "fn": "caddies",
+   "args": [
+    "258675",
+    "850"
+   ],
+   "expect": "The 258675 cupcakes at 850 cupcakes a caddy take 305 caddies, the last caddy holding 275 cupcakes."
+  },
+  {
+   "fn": "caddies",
+   "args": [
+    "366961",
+    "736"
+   ],
+   "expect": "The 366961 cupcakes at 736 cupcakes a caddy take 499 caddies, the last caddy holding 433 cupcakes."
+  },
+  {
+   "fn": "caddies",
+   "args": [
+    "21524",
+    "606"
+   ],
+   "expect": "The 21524 cupcakes at 606 cupcakes a caddy take 36 caddies, the last caddy holding 314 cupcakes."
+  },
+  {
+   "fn": "caddies",
+   "args": [
+    "104811",
+    "832"
+   ],
+   "expect": "The 104811 cupcakes at 832 cupcakes a caddy take 126 caddies, the last caddy holding 811 cupcakes."
+  },
+  {
+   "fn": "caddies",
+   "args": [
+    "206373",
+    "79"
+   ],
+   "expect": "The 206373 cupcakes at 79 cupcakes a caddy take 2613 caddies, the last caddy holding 25 cupcakes."
+  },
+  {
+   "fn": "caddies",
+   "args": [
+    "584570",
+    "770"
+   ],
+   "expect": "The 584570 cupcakes at 770 cupcakes a caddy take 760 caddies, the last caddy holding 140 cupcakes."
+  },
+  {
+   "fn": "caddies",
+   "args": [
+    "949419",
+    "806"
+   ],
+   "expect": "The 949419 cupcakes at 806 cupcakes a caddy take 1178 caddies, the last caddy holding 757 cupcakes."
+  },
+  {
+   "fn": "caddies",
+   "args": [
+    "290018",
+    "725"
+   ],
+   "expect": "The 290018 cupcakes at 725 cupcakes a caddy take 401 caddies, the last caddy holding 18 cupcakes."
+  },
+  {
+   "fn": "caddies",
+   "args": [
+    "385588",
+    "622"
+   ],
+   "expect": "The 385588 cupcakes at 622 cupcakes a caddy take 620 caddies, the last caddy holding 570 cupcakes."
+  },
+  {
+   "fn": "caddies",
+   "args": [
+    "917709",
+    "181"
+   ],
+   "expect": "The 917709 cupcakes at 181 cupcakes a caddy take 5071 caddies, the last caddy holding 39 cupcakes."
+  },
+  {
+   "fn": "caddies",
+   "args": [
+    "37895",
+    "978"
+   ],
+   "expect": "The 37895 cupcakes at 978 cupcakes a caddy take 39 caddies, the last caddy holding 731 cupcakes."
+  },
+  {
+   "fn": "caddies",
+   "args": [
+    "334289",
+    "602"
+   ],
+   "expect": "The 334289 cupcakes at 602 cupcakes a caddy take 556 caddies, the last caddy holding 179 cupcakes."
+  },
+  {
+   "fn": "caddies",
+   "args": [
+    "367458",
+    "602"
+   ],
+   "expect": "The 367458 cupcakes at 602 cupcakes a caddy take 611 caddies, the last caddy holding 238 cupcakes."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "392048",
+    "96619"
+   ],
+   "expect": "The 392048 cupcakes at 96619 cupcakes a week last 4 full weeks with 5572 cupcakes left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "653308",
+    "19340"
+   ],
+   "expect": "The 653308 cupcakes at 19340 cupcakes a week last 33 full weeks with 15088 cupcakes left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "744940",
+    "14083"
+   ],
+   "expect": "The 744940 cupcakes at 14083 cupcakes a week last 52 full weeks with 12624 cupcakes left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "315378",
+    "98626"
+   ],
+   "expect": "The 315378 cupcakes at 98626 cupcakes a week last 3 full weeks with 19500 cupcakes left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "683429",
+    "62048"
+   ],
+   "expect": "The 683429 cupcakes at 62048 cupcakes a week last 11 full weeks with 901 cupcakes left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "848505",
+    "36404"
+   ],
+   "expect": "The 848505 cupcakes at 36404 cupcakes a week last 23 full weeks with 11213 cupcakes left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "807142",
+    "60801"
+   ],
+   "expect": "The 807142 cupcakes at 60801 cupcakes a week last 13 full weeks with 16729 cupcakes left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "7322",
+    "72610"
+   ],
+   "expect": "The 7322 cupcakes at 72610 cupcakes a week last 0 full weeks with 7322 cupcakes left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "485767",
+    "60590"
+   ],
+   "expect": "The 485767 cupcakes at 60590 cupcakes a week last 8 full weeks with 1047 cupcakes left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "174021",
+    "66456"
+   ],
+   "expect": "The 174021 cupcakes at 66456 cupcakes a week last 2 full weeks with 41109 cupcakes left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "842772",
+    "43877"
+   ],
+   "expect": "The 842772 cupcakes at 43877 cupcakes a week last 19 full weeks with 9109 cupcakes left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "454136",
+    "3705"
+   ],
+   "expect": "The 454136 cupcakes at 3705 cupcakes a week last 122 full weeks with 2126 cupcakes left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "100866",
+    "7455"
+   ],
+   "expect": "The 100866 cupcakes at 7455 cupcakes a week last 13 full weeks with 3951 cupcakes left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "818624",
+    "27085"
+   ],
+   "expect": "The 818624 cupcakes at 27085 cupcakes a week last 30 full weeks with 6074 cupcakes left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "443106",
+    "15836"
+   ],
+   "expect": "The 443106 cupcakes at 15836 cupcakes a week last 27 full weeks with 15534 cupcakes left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "974796",
+    "70790"
+   ],
+   "expect": "The 974796 cupcakes at 70790 cupcakes a week last 13 full weeks with 54526 cupcakes left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "918425",
+    "65076"
+   ],
+   "expect": "The 918425 cupcakes at 65076 cupcakes a week last 14 full weeks with 7361 cupcakes left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "222833",
+    "31072"
+   ],
+   "expect": "The 222833 cupcakes at 31072 cupcakes a week last 7 full weeks with 5329 cupcakes left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "664016",
+    "17061"
+   ],
+   "expect": "The 664016 cupcakes at 17061 cupcakes a week last 38 full weeks with 15698 cupcakes left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "523728",
+    "8747"
+   ],
+   "expect": "The 523728 cupcakes at 8747 cupcakes a week last 59 full weeks with 7655 cupcakes left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "98270",
+    "647.57",
+    "72119"
+   ],
+   "expect": "The 98270 caddies at $647.57 a caddy come to $63636703.90, $882.38 a cupcake."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "59378",
+    "178.15",
+    "619984"
+   ],
+   "expect": "The 59378 caddies at $178.15 a caddy come to $10578190.70, $17.06 a cupcake."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "79930",
+    "770.25",
+    "466544"
+   ],
+   "expect": "The 79930 caddies at $770.25 a caddy come to $61566082.50, $131.96 a cupcake."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "28621",
+    "429.34",
+    "940957"
+   ],
+   "expect": "The 28621 caddies at $429.34 a caddy come to $12288140.14, $13.06 a cupcake."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "57503",
+    "970.78",
+    "876013"
+   ],
+   "expect": "The 57503 caddies at $970.78 a caddy come to $55822762.34, $63.72 a cupcake."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "77551",
+    "714.48",
+    "783209"
+   ],
+   "expect": "The 77551 caddies at $714.48 a caddy come to $55408638.48, $70.75 a cupcake."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "96770",
+    "851.24",
+    "630311"
+   ],
+   "expect": "The 96770 caddies at $851.24 a caddy come to $82374494.80, $130.69 a cupcake."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "58369",
+    "355.51",
+    "784572"
+   ],
+   "expect": "The 58369 caddies at $355.51 a caddy come to $20750763.19, $26.45 a cupcake."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "80605",
+    "25.52",
+    "935522"
+   ],
+   "expect": "The 80605 caddies at $25.52 a caddy come to $2057039.60, $2.20 a cupcake."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "81609",
+    "303.49",
+    "642835"
+   ],
+   "expect": "The 81609 caddies at $303.49 a caddy come to $24767515.41, $38.53 a cupcake."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "76821",
+    "32.59",
+    "990219"
+   ],
+   "expect": "The 76821 caddies at $32.59 a caddy come to $2503596.39, $2.53 a cupcake."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "68949",
+    "668.86",
+    "266788"
+   ],
+   "expect": "The 68949 caddies at $668.86 a caddy come to $46117228.14, $172.86 a cupcake."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "89581",
+    "124.94",
+    "445025"
+   ],
+   "expect": "The 89581 caddies at $124.94 a caddy come to $11192250.14, $25.15 a cupcake."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "50260",
+    "875.86",
+    "780510"
+   ],
+   "expect": "The 50260 caddies at $875.86 a caddy come to $44020723.60, $56.40 a cupcake."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "43260",
+    "260.35",
+    "669842"
+   ],
+   "expect": "The 43260 caddies at $260.35 a caddy come to $11262741.00, $16.81 a cupcake."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "37353",
+    "19.59",
+    "115818"
+   ],
+   "expect": "The 37353 caddies at $19.59 a caddy come to $731745.27, $6.32 a cupcake."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "62558",
+    "862.69",
+    "614738"
+   ],
+   "expect": "The 62558 caddies at $862.69 a caddy come to $53968161.02, $87.79 a cupcake."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "44247",
+    "597.27",
+    "709203"
+   ],
+   "expect": "The 44247 caddies at $597.27 a caddy come to $26427405.69, $37.26 a cupcake."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "57602",
+    "147.68",
+    "260048"
+   ],
+   "expect": "The 57602 caddies at $147.68 a caddy come to $8506663.36, $32.71 a cupcake."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "40435",
+    "327.73",
+    "965243"
+   ],
+   "expect": "The 40435 caddies at $327.73 a caddy come to $13251762.55, $13.73 a cupcake."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "98934",
+    "544.92",
+    "40437"
+   ],
+   "expect": "The 98934 caddies at $544.92 a caddy come to $53911115.28, $1333.21 a cupcake."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "78701",
+    "525.43",
+    "34062"
+   ],
+   "expect": "The 78701 caddies at $525.43 a caddy come to $41351866.43, $1214.02 a cupcake."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "8636",
+    "73.79",
+    "136612"
+   ],
+   "expect": "The 8636 caddies at $73.79 a caddy come to $637250.44, $4.66 a cupcake."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "98327",
+    "832.95",
+    "310954"
+   ],
+   "expect": "The 98327 caddies at $832.95 a caddy come to $81901474.65, $263.39 a cupcake."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "86743",
+    "976.28",
+    "537804"
+   ],
+   "expect": "The 86743 caddies at $976.28 a caddy come to $84685456.04, $157.47 a cupcake."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "483662",
+    "61"
+   ],
+   "expect": "The 483662 cupcakes at 61 cupcakes a minute take 7929 minutes, 132 hours 9 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "902652",
+    "35"
+   ],
+   "expect": "The 902652 cupcakes at 35 cupcakes a minute take 25791 minutes, 429 hours 51 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "580722",
+    "52"
+   ],
+   "expect": "The 580722 cupcakes at 52 cupcakes a minute take 11168 minutes, 186 hours 8 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "386681",
+    "66"
+   ],
+   "expect": "The 386681 cupcakes at 66 cupcakes a minute take 5859 minutes, 97 hours 39 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "796092",
+    "98"
+   ],
+   "expect": "The 796092 cupcakes at 98 cupcakes a minute take 8124 minutes, 135 hours 24 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "836818",
+    "35"
+   ],
+   "expect": "The 836818 cupcakes at 35 cupcakes a minute take 23910 minutes, 398 hours 30 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "418675",
+    "59"
+   ],
+   "expect": "The 418675 cupcakes at 59 cupcakes a minute take 7097 minutes, 118 hours 17 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "543433",
+    "41"
+   ],
+   "expect": "The 543433 cupcakes at 41 cupcakes a minute take 13255 minutes, 220 hours 55 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "388834",
+    "58"
+   ],
+   "expect": "The 388834 cupcakes at 58 cupcakes a minute take 6705 minutes, 111 hours 45 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "213377",
+    "45"
+   ],
+   "expect": "The 213377 cupcakes at 45 cupcakes a minute take 4742 minutes, 79 hours 2 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "574555",
+    "31"
+   ],
+   "expect": "The 574555 cupcakes at 31 cupcakes a minute take 18535 minutes, 308 hours 55 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "119938",
+    "60"
+   ],
+   "expect": "The 119938 cupcakes at 60 cupcakes a minute take 1999 minutes, 33 hours 19 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "624614",
+    "24"
+   ],
+   "expect": "The 624614 cupcakes at 24 cupcakes a minute take 26026 minutes, 433 hours 46 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "223397",
+    "99"
+   ],
+   "expect": "The 223397 cupcakes at 99 cupcakes a minute take 2257 minutes, 37 hours 37 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "225527",
+    "15"
+   ],
+   "expect": "The 225527 cupcakes at 15 cupcakes a minute take 15036 minutes, 250 hours 36 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "590250",
+    "69"
+   ],
+   "expect": "The 590250 cupcakes at 69 cupcakes a minute take 8555 minutes, 142 hours 35 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "984774",
+    "57"
+   ],
+   "expect": "The 984774 cupcakes at 57 cupcakes a minute take 17277 minutes, 287 hours 57 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "35903",
+    "94"
+   ],
+   "expect": "The 35903 cupcakes at 94 cupcakes a minute take 382 minutes, 6 hours 22 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "267429",
+    "63"
+   ],
+   "expect": "The 267429 cupcakes at 63 cupcakes a minute take 4245 minutes, 70 hours 45 minutes."
+  }
+ ],
+ "errors": [
+  [
+   "caddies",
+   [
+    "0",
+    "8"
+   ]
+  ],
+  [
+   "caddies",
+   [
+    "1000001",
+    "8"
+   ]
+  ],
+  [
+   "caddies",
+   [
+    "2.5",
+    "8"
+   ]
+  ],
+  [
+   "caddies",
+   [
+    "290",
+    "0"
+   ]
+  ],
+  [
+   "caddies",
+   [
+    "290",
+    "1001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "0",
+    "30"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "290",
+    "0"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "290",
+    "100001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "290",
+    "1.5"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "1000001",
+    "30"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "12.75",
+    "290"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "100001",
+    "12.75",
+    "290"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "46",
+    "0",
+    "290"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "46",
+    "12.755",
+    "290"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "46",
+    "12.75",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "0",
+    "8"
+   ]
+  ],
+  [
+   "time",
+   [
+    "290",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "290",
+    "101"
+   ]
+  ],
+  [
+   "time",
+   [
+    "290",
+    "6.5"
+   ]
+  ],
+  [
+   "time",
+   [
+    "1000001",
+    "5"
+   ]
+  ]
+ ]
+}
